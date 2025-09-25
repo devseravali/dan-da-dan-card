@@ -1,0 +1,41 @@
+# Dependências e Logs
+node_modules/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Saída do Build e Cache
+/dist
+/dist-ssr
+/coverage
+.vite/
+.eslintcache
+.babelcache
+.turbo/
+.cache/
+
+# TypeScript (artefatos de compilação)
+*.js.map
+*.d.ts
+*.tsbuildinfo
+
+# Variáveis de Ambiente e Segredos
+.env
+.env.*.local
+*.local
+*.env
+
+# Arquivos de Sistema e IDEs
+.DS_Store
+thumbs.db
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
