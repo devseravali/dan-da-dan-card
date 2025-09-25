@@ -1,3 +1,4 @@
+import { BrowserRouter } from 'react-router-dom';
 import { ImagemCard } from "./components/ImagemCard/ImagemCard";
 import { PersonagemComCuriosidade } from './components/SobrePersonagem/PersonagemComCuriosidade';
 import { ButtonLabel } from './components/ButtonLabel/ButtonLabel';
@@ -11,6 +12,7 @@ import './Styles/globals.css';
 
 function App() {
   return (
+   <BrowserRouter basename="/dan-da-dan-card/">
     <div className="w-full min-h-screen flex items-center justify-center bg-[var(--fundo-principal-escuro)] p-6">
     <BordaCard>
       <TituloCard titulo={okarun.title.titulo} />
@@ -34,6 +36,7 @@ function App() {
       <ButtonLabel label={okarun.button.label} />
     </BordaCard>
     </div>
+    </BrowserRouter>
   );
 }
 

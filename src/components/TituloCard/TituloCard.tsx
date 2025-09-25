@@ -1,5 +1,5 @@
 import type { TituloCard as TituloCardType } from '../../types/types';
-import { useMouseOver } from '../../hooks/useMouseOver';
+import { useMouseOver } from '../../hooks/UseMouseOver';
 
 export const TituloCard = ({ titulo }: TituloCardType) => {
   const { isHovering, onMouseEnter, onMouseLeave } = useMouseOver();
