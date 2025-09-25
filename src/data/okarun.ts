@@ -3,7 +3,7 @@ export const okarun = {
     titulo: "dan da dan"
   },
   image: {
-    src: "/images/okarun-icon.png",
+    src: "",
     alt: "Foto do personagem Okarun",
   },
   nome: {
