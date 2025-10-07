@@ -44,8 +44,6 @@ O projeto utiliza as seguintes tecnologias e ferramentas:
 - **Fonts personalizadas** – Orbitron (Bold, Medium, Regular) para o design do card.
 - **Hooks customizados** – `UseMouseOver` para interações do card.
 - **Imagens e assets** – ícone do personagem em `src/assets/`, preview em `public/images/`.
-- **Auxílio de IA** – uso de ChatGPT para sugestões de organização, estrutura e melhorias do projeto.
-
 ---
 
 ## 📂 Estrutura do Projeto
